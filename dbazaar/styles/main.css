@@ -1,0 +1,190 @@
+html, body {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+}
+
+.client-nav {
+    position: relative;
+    display: flex;
+    background: linear-gradient(to right, #CA1B1B 0%, #FE6161 100%);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar-text {
+    position: relative;
+    display: block;
+    color: white;
+    margin: auto;
+}
+
+#game_title_block {
+    position: relative;
+    padding-top: 2%;
+    display: block;
+}
+
+#game_title {
+    position: relative;
+    display: inline;
+    margin-left: 8%;
+}
+
+#gold_coin_text {
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 5%;
+    font-size: 15px;
+    color: black;
+}
+
+#icon_gold_coin {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.game_content_block {
+    position: relative;
+    display: block;
+}
+
+.game_button {
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.game_icon {
+    position: relative;
+    display: block;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.game_icon:hover {
+    background-color: aliceblue;
+}
+
+.game_name {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* admin */
+
+.admin-nav {
+    position: fixed;
+    display: flex;
+    background: linear-gradient(to right, #CA1B1B 0%, #FE6161 100%);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+#admin_title_block {
+    position: relative;
+    padding-top: 2%;
+    display: block;
+}
+
+#admin_title {
+    position: relative;
+    display: block;
+    margin-left: 8%;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    display: inline-block;
+    background-color: #f47878;
+    text-align: center;
+    overflow: hidden;
+}
+
+aside ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    margin-top: 60px;
+    padding-top: 50%;
+    height: 100%;
+}
+
+aside li {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside a {
+    text-decoration: none;
+    color: #c6c3c3;
+    transition: 0.3s;
+}
+
+aside a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.contents {
+    position: relative;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 60px;
+    width: 75%;
+}
+
+.for_contents_alignment {
+    position: relative;
+}
+
+.admin_game_title {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 36px;
+}
+
+.edit_game_table {
+    position: relative;
+    display: block;
+    margin-left: 10%;
+}
+
+label {
+    font-size: 16px;
+}
+
+input, select {
+	padding: 5px;
+	margin: 5px; 
+}
+
+#admin_edit_game_buttons {
+    margin-left: 10%;
+}
+
+
+
+
+
